@@ -1,0 +1,169 @@
+body {
+  font-family: "Montserrat", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+h1 {
+  font-family: "Montserrat", serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.carousel-button {
+  background-color: black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.faang {
+  color: #1cadf0;
+  font-family: "Dancing Script";
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-weight: 600;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: black;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.phone-img {
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.social-icon {
+  margin: 10px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+
+#title {
+  background-color: #e8f7fe;
+  color: black;
+}
+
+#features {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 7% 15%;
+  z-index: 1;
+  position: relative;
+}
+
+#testimonials {
+  background-color: #e8f7fe;
+  text-align: center;
+  color: black;
+}
+#press {
+  background-color: #e8f7fe;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #e8f7fe;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  padding: 10% 30%;
+}
+
+#footer {
+  padding: 40px;
+  text-align: center;
+}
